@@ -16,27 +16,27 @@ export default {
     pictures: [
       {
         id: 1,
-        image: '../images/222.jpg',
+        image: '../static/images/222.jpg',
         text: 'Медведи'
       },
       {
         id: 2,
-        image: '../images/8055.jpeg',
+        image: '../static/images/8055.jpeg',
         text: 'Белка'
       },
       {
         id: 3,
-        image: '../images/4173.jpg',
+        image: '../static/images/4173.jpg',
         text: 'Еноты'
       },
       {
         id: 4,
-        image: '../images/111.jpg',
+        image: '../static/images/111.jpg',
         text: 'Львы'
       },
       {
         id: 5,
-        image: '../images/333.jpg',
+        image: '../static/images/333.jpg',
         text: 'Тигр'
       }
     ]
