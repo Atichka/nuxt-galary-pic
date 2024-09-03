@@ -6,8 +6,11 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "predeploy": "npm run build",
+    "deploy": "chmod +x deploy.sh ./deploy.sh"
   },
+  "homepage": "./",
   "dependencies": {
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
@@ -16,6 +19,7 @@
     "vue-template-compiler": "^2.7.10"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "webpack": "^4.47.0",
     "webpack-dev-server": "^5.0.4"
   }
