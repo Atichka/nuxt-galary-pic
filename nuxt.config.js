@@ -2,7 +2,7 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   router: {
-    base: 'nuxt-galary-pic',
+    base: '/nuxt-galary-pic/',
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
